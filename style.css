@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body {
+    background-color: hsl(333, 60%, 97%);
+}
+
+img {
+    height: 320px;
+    width: auto;
+    border-radius: 20px;
+}
+
+.container {
+    background: white;
+    border-radius: 35px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    padding-top: 30px;
+    margin-top: 80px;
+    margin-bottom: 90px;
+
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+}
+
+.text-container {
+    padding-left: 30px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: hsl(333, 60%, 97%);
+    border-radius: 10px;
+}
+
+.container-2,
+ul {
+    padding-left: 20px;
+    list-style-position: outside;
+    padding-left: 23px;
+}
+
+ol {
+    list-style-position: outside;
+}
+
+ul li {
+    color: hsl(14, 45%, 36%);
+}
+
+ul li span {
+    color: rgb(49, 49, 49);
+}
+
+ol li {
+    color: hsl(14, 45%, 36%);
+}
+
+ol li span {
+    color: rgb(49, 49, 49);
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: hsl(333, 60%, 97%);
+}
+
+.title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nutritional-table {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.nutritional-table th,
+.nutritional-table td {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.nutritional-table th {
+    background-color: #f2f2f2;
+}
+
+.nutritional-table td:nth-child(2) {
+    text-align: right;
+}
+
+
+.Nutrients-value {
+    color: hsl(14, 45%, 36%);
+}
+
+@media (max-width: 1300px) {
+    img {
+        width: 100%;
+    }
+}
